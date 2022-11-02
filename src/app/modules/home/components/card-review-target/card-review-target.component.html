@@ -1,0 +1,33 @@
+<mat-card class="mat-elevation-z4" fxLayout="column" fxLayoutGap="30px">
+  <div fxLayout="column" fxLayoutGap="10px">
+    <div fxLayout="row" fxLayoutAlign="space-between">
+      <p class="text-conocer">Conocer mi sobrino</p>
+      <p class="link">Revisar objetivo</p>
+    </div>
+
+    <div fxLayout="row">
+      <p class="text-categoria">Categoría: Bienestar</p>
+    </div>
+  </div>
+
+  <div fxLayout="row" fxLayoutAlign="space-around">
+    <div fxLayout="column" fxLayoutGap="5px" fxLayoutAlign="center center">
+      <p>En esta fecha:</p>
+      <div class="blue caja">Diciembre/2022</div>
+    </div>
+
+    <div fxLayout="column" fxLayoutGap="5px" fxLayoutAlign="center center">
+      <p>Lograras</p>
+      <div class="orange caja">{{ 6000000 | currency }}</div>
+    </div>
+
+    <div fxLayout="column" fxLayoutGap="5px" fxLayoutAlign="center center">
+      <p>Ya cuentas con:</p>
+      <div class="green caja">{{ 0 | currency }}</div>
+    </div>
+  </div>
+
+  <div fxLayout="row">
+    <p class="link">¡Asocia productos para monitorear tu progreso</p>
+  </div>
+</mat-card>

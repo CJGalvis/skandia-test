@@ -1,0 +1,49 @@
+mat-card {
+  max-width: 550px;
+}
+
+.text-conocer {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #00c83c;
+}
+
+.text-categoria {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.caja {
+  border-radius: 3px;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  width: 100px;
+}
+
+.blue {
+  background-color: rgba(16, 151, 151, 0.438);
+}
+
+.orange {
+  background-color: rgba(151, 88, 16, 0.438);
+}
+
+.green {
+  background-color: rgba(16, 151, 68, 0.438);
+}
+
+p {
+  margin: 0;
+}
+
+.mat-card {
+  padding: 30px;
+}

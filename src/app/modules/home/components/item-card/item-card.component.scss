@@ -1,0 +1,51 @@
+.check {
+  width: 100%;
+}
+
+.separador {
+  background-color: rgb(158, 158, 158);
+  height: 1px;
+  width: 100%;
+  border: 1px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.tex-bold {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.number {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.text-value {
+  font-weight: 500;
+  font-size: 16px;
+  color: #00c83c;
+}
+
+.detail-item {
+  background-color: #ededed;
+  padding: 15px;
+  border-radius: 3px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: #3f3f3f;
+}
+
+mat-card:hover {
+  box-shadow: 0px 2px 4px -1px #50c598fb, 0px 4px 5px 0px #2edb76c5,
+    0px 1px 10px 0px #32e075bd;
+}
+
+::ng-deep .mat-checkbox-frame { 
+  border-color: #50c598fb !important;
+}
