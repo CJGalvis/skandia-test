@@ -1,10 +1,26 @@
 .img-redes {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
 }
 
 .text-links > p {
   font-size: 14px;
   text-decoration: underline;
   color: #3f3f3f;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-info {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: #3f3f3f;
+}
+
+.text-important {
+  color: #00C83C;
+  font-weight: bold;
+}
+
+.img-skandia, .copy {
+  margin-bottom: 35px !important;
 }
